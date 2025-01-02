@@ -7,13 +7,13 @@
 
 stdenv.mkDerivation rec {
   pname = "qc71_laptop";
-  version = "unstable-2023-03-02";
+  version = "unstable-2024-11-19";
 
   src = fetchFromGitHub {
     owner = "pobrn";
     repo = "qc71_laptop";
-    rev = "8805dc5639f6659addf153a295ad4bbaa2483fa3";
-    hash = "sha256-wg7APGArjrl9DEAHTG6BknOBx+UbtNrzziwmLueKPfA=";
+    rev = "6305ec382fb16dc835e4c62c2b6cfcdaf013a83a";
+    hash = "sha256-1pgf77h2hjx4cbpf677gp42yz2h8rv2mv3nihg7d3fqplj72myix";
   };
 
   nativeBuildInputs = kernel.moduleBuildDependencies;
