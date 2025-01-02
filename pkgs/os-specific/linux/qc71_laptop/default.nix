@@ -7,7 +7,7 @@
 
 stdenv.mkDerivation rec {
   pname = "qc71_laptop";
-  version = "unstable-2024-11-19";
+  version = "0-unstable-2024-11-19";
 
   src = fetchFromGitHub {
     owner = "pobrn";
